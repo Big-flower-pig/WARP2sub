@@ -5,8 +5,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认987
 let addresses = [
-	//'engage.cloudflareclient.com:2408#WAPR官方直连',
-	//'162.159.195.128:987#WARP',
+	
 ];
 
 // 设置优选地址api接口
@@ -16,7 +15,7 @@ let addressesapi = [
 
 let DELAY = 180;//延迟上限
 let addressescsv = [
-	'https://raw.githubusercontent.com/cmliu/WARP2sub/main/result.csv', //warp-yxip测速结果文件。
+	 //warp-yxip测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
